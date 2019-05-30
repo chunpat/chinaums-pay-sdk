@@ -1,0 +1,21 @@
+{
+    "name": "onehour/chinaums-pay-sdk",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "zzhpeng",
+            "email": "398949389@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "topthink/framework": "5.1.*",
+        "onehour/core": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "OneHour\\Chinaums\\": "src/"
+        }
+    }
+}
